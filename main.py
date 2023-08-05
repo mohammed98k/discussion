@@ -8,7 +8,7 @@ def triangle():
 
     if area >= 10:
         print("bigger than 10")
-    elif area < 10:
+    elif area < 10 and area > 0:
         print("smaller than 10")
     else:
         print("invalid inputs")
@@ -25,7 +25,7 @@ def rectangle():
 
     if area >= 10:
         print("bigger than 10")
-    elif area < 10:
+    elif area < 10 and area > 0:
         print("smaller than 10")
     else:
         print("invalid inputs")
@@ -40,7 +40,7 @@ def circle():
 
     if area >= 10:
         print("bigger than 10")
-    elif area < 10:
+    elif area < 10 and area > 0 :
         print("smaller than 10")
     elif area <= 0:
         print("invalid inputs")
