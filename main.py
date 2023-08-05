@@ -6,6 +6,12 @@ def triangle():
 
     print("area:", area)
 
+    if area >= 10:
+        print("bigger than 10")
+    elif area < 10:
+        print("smaller than 10")
+    else:
+        print("invalid inputs")
 
 triangle()
 
@@ -17,12 +23,29 @@ def rectangle():
 
     print("area:", area)
 
+    if area >= 10:
+        print("bigger than 10")
+    elif area < 10:
+        print("smaller than 10")
+    else:
+        print("invalid inputs")
 
 rectangle()
 
 
 def circle():
     r = int(input("radius"))
-    area = 3.14 * (r^2)
+    area = 3.14 * (r**2)
     print("area", area)
+
+    if area >= 10:
+        print("bigger than 10")
+    elif area < 10:
+        print("smaller than 10")
+    elif area <= 0:
+        print("invalid inputs")
+    else:
+        print("non")
+
+
 circle()
